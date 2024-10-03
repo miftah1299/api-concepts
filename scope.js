@@ -35,9 +35,12 @@ console.log(y);
 */
 // Function scope
 // function scope variable is only accessible within the function
+// var, let, const
 function showNum () {
-    const z = 20; // function scope
-    console.log(z);
+    var num1 = 10; // function scope
+    let num2 = 15; // function scope
+    const num3 = 20; // function scope
+    // console.log(z);
 }
 showNum();
-// console.log(z); // ReferenceError: z is not defined
+console.log(num1); // ReferenceError: num1 is not defined
