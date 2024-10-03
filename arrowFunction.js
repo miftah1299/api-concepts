@@ -4,12 +4,13 @@ const info = () => "arrow function";
 console.log(info());
 
 // arrow function with a single parameter
-const square = a => a * a;
+const square = (a) => a * a;
 console.log(square(6));
 
 // arrow function with parameters
 const sum = (a, b) => a + b;
 console.log(sum(9, 10));
+
 /*
 
 
@@ -19,5 +20,13 @@ console.log(sum(9, 10));
 const multiply = (a, b) => {
     const result = a * b;
     return result;
-}
+};
 console.log(multiply(5, 6));
+
+/*
+
+
+*/
+// arrow function with default parameter
+const area = (a = 5, b = 6) => a * b;
+console.log("area : ", area(3, 8));
