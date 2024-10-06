@@ -12,6 +12,7 @@ const arr = [23, 45, 67, 89, 90];
 //     console.log(a);
 // }
 
+// arrow function
 // const show = (a) => {
 //     console.log(a);
 // };
